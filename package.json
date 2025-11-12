@@ -1,0 +1,30 @@
+{
+  "name": "openfeature-multiprovider-esm-test",
+  "version": "1.0.0",
+  "description": "Testing the OpenFeature multi-provider in an esm application",
+  "main": "index.mjs",
+  "scripts": {
+    "esm-multi": "node multi.mjs",
+    "cjs-multi": "node multi.cjs",
+    "esm-no-multi": "node no-multi.mjs",
+    "cjs-no-multi": "node no-multi.cjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdkitzman/openfeature-multiprovider-esm-test.git"
+  },
+  "keywords": [
+    "OpenFeature"
+  ],
+  "author": "Mike Kitzman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdkitzman/openfeature-multiprovider-esm-test/issues"
+  },
+  "homepage": "https://github.com/mdkitzman/openfeature-multiprovider-esm-test#readme",
+  "dependencies": {
+    "@openfeature/core": "1.9.1",
+    "@openfeature/server-sdk": "1.20.0"
+  }
+}
